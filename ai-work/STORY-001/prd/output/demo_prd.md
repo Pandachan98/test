@@ -40,5 +40,3 @@ The governance demo should prove that an AI work run can produce registered arti
 ## Notes
 
 This document is intentionally small so it can be used as a stable trace-server registration sample.
-
-TAMPERED IN GITHUB PR CHECK
