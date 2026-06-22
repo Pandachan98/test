@@ -1,0 +1,34 @@
+{
+  "run_id": "9d6a1cb3-28e7-4175-92f8-59f8536b646d",
+  "task_id": "STORY-001",
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo",
+  "synthetic_demo_input": true,
+  "input_materials": [
+    "synthetic_demo_request.md"
+  ],
+  "user_input_quality": {
+    "goal_clarity_score": 2,
+    "context_completeness_score": 1,
+    "constraint_quality_score": 2,
+    "supplement_response_score": 0
+  },
+  "artifact_quality": {
+    "coverage_score": 3,
+    "structure_score": 4,
+    "actionability_score": 3,
+    "risk_identification_score": 3
+  },
+  "token_productivity": {
+    "input_tokens_estimated": 37,
+    "output_tokens_estimated": 566,
+    "effective_artifact_units": 3,
+    "quality_score_per_1k_tokens": 5.39,
+    "rework_risk_level": "medium"
+  },
+  "overall": {
+    "usage_proficiency_level": "beginner",
+    "delivery_readiness": "risk",
+    "summary": "Technical validation sample only; output is suitable for trace testing but must not be treated as real business evidence."
+  }
+}

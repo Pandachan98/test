@@ -1,0 +1,34 @@
+{
+  "artifact_paths": [
+    "demo_repo/requirements/STORY-001/prd/output/demo_prd.md",
+    "demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md",
+    "demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json"
+  ],
+  "artifact_sha256": {
+    "demo_repo/requirements/STORY-001/prd/output/demo_prd.md": "742f6f2d0a78c3205ee91be80cded611242156832d843898b024478ea71ca816",
+    "demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md": "e5530183890b7f07dc7ca9053b54169ec080ccb1453551de3a219760c042d481",
+    "demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json": "d8c249882ad6a48595bedd33d54bd1ce3396904956d4793872be80ea2dd072c7"
+  },
+  "issued_at": "2026-06-22T07:10:59+00:00",
+  "run_id": "9d6a1cb3-28e7-4175-92f8-59f8536b646d",
+  "signature": "a7ad8cbfb4343cbec23571f5d9f3b5e4f6b503419a2a583f1bef822d191dcfa0",
+  "skill_audit_artifacts": [
+    {
+      "artifact_type": "skill_audit",
+      "path": "demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md",
+      "sha256": "e5530183890b7f07dc7ca9053b54169ec080ccb1453551de3a219760c042d481"
+    }
+  ],
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo",
+  "task_id": "STORY-001",
+  "trace_server_id": "fjsk-local-trace-server-v1",
+  "usage_evaluation_artifacts": [
+    {
+      "artifact_type": "usage_evaluation",
+      "path": "demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json",
+      "sha256": "d8c249882ad6a48595bedd33d54bd1ce3396904956d4793872be80ea2dd072c7"
+    }
+  ],
+  "work_type": "prd"
+}

@@ -1,0 +1,12 @@
+{
+  "certificate_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/trace/run_certificate.json",
+  "checked_artifacts": [],
+  "errors": [
+    "certificate check failed: file does not exist: /Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/trace/run_certificate.json"
+  ],
+  "ok": false,
+  "repo_root": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance",
+  "trace": {},
+  "verified_at": "2026-06-22T07:11:00+00:00",
+  "warnings": []
+}

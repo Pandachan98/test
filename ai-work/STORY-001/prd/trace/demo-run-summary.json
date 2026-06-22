@@ -1,0 +1,37 @@
+{
+  "run_id": "9d6a1cb3-28e7-4175-92f8-59f8536b646d",
+  "clean_verification": "pass",
+  "trace_report": "demo_repo/requirements/STORY-001/prd/trace/trace-detail-report.md",
+  "negative_results": [
+    {
+      "case": "verifier-report-tampered-business",
+      "target": "demo_repo/requirements/STORY-001/prd/output/demo_prd.md",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "case": "verifier-report-tampered-audit",
+      "target": "demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "case": "verifier-report-tampered-evaluation",
+      "target": "demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "case": "verifier-report-tampered-certificate",
+      "target": "demo_repo/requirements/STORY-001/prd/trace/run_certificate.json",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "case": "verifier-report-missing-certificate",
+      "target": "demo_repo/requirements/STORY-001/prd/trace/run_certificate.json",
+      "exit_code": 1,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "certificate": {
+    "issued_at": "2026-06-22T07:10:59+00:00",
+    "run_id": "9d6a1cb3-28e7-4175-92f8-59f8536b646d",
+    "skill_name": "fjsk-ai-governance-demo-skill",
+    "skill_version": "0.1.0-demo",
+    "task_id": "STORY-001",
+    "trace_server_id": "fjsk-local-trace-server-v1",
+    "work_type": "prd"
+  },
+  "certificate_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/trace/run_certificate.json",
+  "checked_artifacts": [
+    {
+      "actual_sha256": "742f6f2d0a78c3205ee91be80cded611242156832d843898b024478ea71ca816",
+      "categories": [
+        "artifact_paths"
+      ],
+      "exists": true,
+      "expected_sha256": "742f6f2d0a78c3205ee91be80cded611242156832d843898b024478ea71ca816",
+      "ok": true,
+      "path": "demo_repo/requirements/STORY-001/prd/output/demo_prd.md",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/output/demo_prd.md"
+    },
+    {
+      "actual_sha256": "e5530183890b7f07dc7ca9053b54169ec080ccb1453551de3a219760c042d481",
+      "categories": [
+        "artifact_paths",
+        "skill_audit_artifacts"
+      ],
+      "exists": true,
+      "expected_sha256": "e5530183890b7f07dc7ca9053b54169ec080ccb1453551de3a219760c042d481",
+      "ok": true,
+      "path": "demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/output/skill_audit_report.md"
+    },
+    {
+      "actual_sha256": "d8c249882ad6a48595bedd33d54bd1ce3396904956d4793872be80ea2dd072c7",
+      "categories": [
+        "artifact_paths",
+        "usage_evaluation_artifacts"
+      ],
+      "exists": true,
+      "expected_sha256": "d8c249882ad6a48595bedd33d54bd1ce3396904956d4793872be80ea2dd072c7",
+      "ok": true,
+      "path": "demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/output/skill_usage_evaluation.json"
+    }
+  ],
+  "errors": [],
+  "ok": true,
+  "repo_root": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance",
+  "signature": {
+    "algorithm": "HMAC-SHA256",
+    "secret_source": "default",
+    "valid": true
+  },
+  "trace": {
+    "certificate_found": true,
+    "certificates_checked": true,
+    "run_found": true,
+    "runs_checked": true,
+    "trace_data_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/apps/trace_server/data"
+  },
+  "verified_at": "2026-06-22T07:11:00+00:00",
+  "warnings": []
+}

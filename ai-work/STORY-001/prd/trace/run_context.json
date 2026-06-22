@@ -1,0 +1,12 @@
+{
+  "run_id": "9d6a1cb3-28e7-4175-92f8-59f8536b646d",
+  "task_id": "STORY-001",
+  "work_type": "prd",
+  "repo_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo",
+  "input_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/input",
+  "output_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/output",
+  "trace_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/demo_repo/requirements/STORY-001/prd/trace",
+  "trace_data_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/apps/trace_server/data",
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo"
+}
