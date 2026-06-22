@@ -1,0 +1,40 @@
+name: AI Governance Verifier
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  ai-governance-verifier:
+    name: ai-governance-verifier
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run AI governance verifier
+        run: |
+          python tools/ai_governance_ci/verify_repository.py \
+            --repo-root . \
+            --expected-skill-name fjsk-ai-governance-demo-skill \
+            --expected-skill-version 0.1.0-demo \
+            --report-json ai-governance-verifier-report.json \
+            --report-md ai-governance-verifier-report.md
+
+      - name: Publish verifier summary
+        if: always()
+        run: |
+          if [ -f ai-governance-verifier-report.md ]; then
+            cat ai-governance-verifier-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
