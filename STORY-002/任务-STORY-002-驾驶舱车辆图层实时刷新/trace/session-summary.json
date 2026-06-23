@@ -1,0 +1,28 @@
+{
+  "capture_mode": "skill_generated_retrospective",
+  "conversation_context_available": true,
+  "created_at": "2026-06-23T06:37:09+00:00",
+  "input_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/input",
+  "main_outputs": [
+    "output/demo_prd.md",
+    "output/skill_audit_report.md",
+    "output/skill_usage_evaluation.json",
+    "output/驾驶舱车辆图层实时刷新-PRD.md"
+  ],
+  "note": "当前保存的是由 skill / Codex 在会话结束时生成的复盘报告和上下文交接包，不是 Codex 客户端底层原始逐字聊天全文。",
+  "output_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/output",
+  "raw_chat_export_available": false,
+  "retrospective_available": true,
+  "run_id": "dc1d4cfd-b4ba-4a4d-93f7-99887272de45",
+  "schema_version": "1.0",
+  "skill_invocation_count": 1,
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo",
+  "status": "completed",
+  "task_id": "STORY-001",
+  "task_title": "驾驶舱车辆图层实时刷新",
+  "tool_call_count": 1,
+  "trace_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/trace",
+  "turn_count": 4,
+  "workspace_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd"
+}
