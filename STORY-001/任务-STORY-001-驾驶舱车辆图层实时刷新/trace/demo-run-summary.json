@@ -1,0 +1,40 @@
+{
+  "artifact_count": 4,
+  "artifacts": [
+    "output/demo_prd.md",
+    "output/skill_audit_report.md",
+    "output/skill_usage_evaluation.json",
+    "output/驾驶舱车辆图层实时刷新-PRD.md"
+  ],
+  "capture_mode": "skill_generated_retrospective",
+  "clean_verification": "pass",
+  "created_at": "2026-06-23T06:37:10+00:00",
+  "evidence_files": [
+    "trace/skill-invocation.json",
+    "trace/conversation-retrospective.md",
+    "trace/conversation-context.md",
+    "trace/conversation-context.json",
+    "trace/final-response.md",
+    "trace/conversation-log.jsonl",
+    "trace/tool-calls.jsonl",
+    "trace/session-summary.json",
+    "trace/input-snapshot-manifest.json",
+    "trace/output-snapshot-manifest.json"
+  ],
+  "negative_results": [
+    {
+      "case": "verifier-report-tampered-business",
+      "errors": [
+        "artifact sha256 mismatch: local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/output/驾驶舱车辆图层实时刷新-PRD.md"
+      ],
+      "exitCode": 1,
+      "passed": true,
+      "target": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/output/驾驶舱车辆图层实时刷新-PRD.md",
+      "targetRelativePath": "output/驾驶舱车辆图层实时刷新-PRD.md"
+    }
+  ],
+  "raw_chat_export_available": false,
+  "run_id": "dc1d4cfd-b4ba-4a4d-93f7-99887272de45",
+  "trace_report": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd/trace/trace-detail-report.md",
+  "workspace": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-001/任务-STORY-001-驾驶舱车辆图层实时刷新-20260623-143058-dc1d4cfd"
+}
