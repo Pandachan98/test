@@ -1,0 +1,81 @@
+{
+  "certificate": {
+    "issued_at": "2026-06-24T01:40:42+00:00",
+    "run_id": "d5ba09ca-533f-439e-8d96-6e5b96a9f57f",
+    "skill_name": "fjsk-ai-governance-demo-skill",
+    "skill_version": "0.1.0-demo",
+    "task_id": "STORY-006",
+    "trace_server_id": "fjsk-local-trace-server-v1",
+    "work_type": "prd"
+  },
+  "certificate_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/trace/run_certificate.json",
+  "checked_artifacts": [
+    {
+      "actual_sha256": "8f4c81682976ea83ea28d683fe084ea199970c8e38a97c21c3a7d66f7c64a546",
+      "categories": [
+        "artifact_paths",
+        "skill_audit_artifacts"
+      ],
+      "exists": true,
+      "expected_sha256": "8f4c81682976ea83ea28d683fe084ea199970c8e38a97c21c3a7d66f7c64a546",
+      "ok": true,
+      "path": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/skill_audit_report.md",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/skill_audit_report.md"
+    },
+    {
+      "actual_sha256": "40ac750fbaa42853d040249208273c349d04fba3a51928805eeec8b7683efd1f",
+      "categories": [
+        "artifact_paths",
+        "usage_evaluation_artifacts"
+      ],
+      "exists": true,
+      "expected_sha256": "40ac750fbaa42853d040249208273c349d04fba3a51928805eeec8b7683efd1f",
+      "ok": true,
+      "path": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/skill_usage_evaluation.json",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/skill_usage_evaluation.json"
+    },
+    {
+      "actual_sha256": "6a45054eea14fbef4f5e9e3526ecac5908b556e4c21d4b24912dc72dd19973ef",
+      "categories": [
+        "artifact_paths"
+      ],
+      "exists": true,
+      "expected_sha256": "629b3cbff564f51e4cbf1429ad337611ff5d68d385d31f1c639e481a3b36fec9",
+      "ok": false,
+      "path": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/工作流引擎升级到v2-功能文档.md",
+      "resolved_path": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/工作流引擎升级到v2-功能文档.md"
+    }
+  ],
+  "errors": [
+    "artifact sha256 mismatch: local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output/工作流引擎升级到v2-功能文档.md"
+  ],
+  "ok": false,
+  "repo_root": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance",
+  "required_audit_files": {
+    "missing": [],
+    "required": [
+      "trace/conversation-retrospective.md",
+      "trace/conversation-context.md",
+      "trace/conversation-context.json",
+      "trace/final-response.md",
+      "trace/session-summary.json",
+      "trace/input-snapshot-manifest.json",
+      "trace/output-snapshot-manifest.json"
+    ]
+  },
+  "signature": {
+    "algorithm": "HMAC-SHA256",
+    "secret_source": "default",
+    "valid": true
+  },
+  "trace": {
+    "certificate_found": true,
+    "certificates_checked": true,
+    "run_found": true,
+    "runs_checked": true,
+    "trace_data_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/apps/trace_server/data"
+  },
+  "unregistered_artifacts": [],
+  "verified_at": "2026-06-24T01:40:42+00:00",
+  "warnings": []
+}
