@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-06-24T02:36:57+00:00",
+  "inputDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/input",
+  "launcherRun": {
+    "extra": {
+      "input_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/input",
+      "launcher_version": "0.1.0",
+      "source": "launcher"
+    },
+    "output_dir": "local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/output",
+    "repo_path": "local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f",
+    "run_id": "e083f64f-0434-45c8-98f5-cd2eaf64463c",
+    "skill_name": "fjsk-ai-governance-demo-skill",
+    "skill_version": "0.1.0-demo",
+    "started_at": "2026-06-24T02:36:57+00:00",
+    "status": "running",
+    "task_id": "STORY-003",
+    "trace_dir": "local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/trace",
+    "work_type": "prd"
+  },
+  "outputDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/output",
+  "runId": "e083f64f-0434-45c8-98f5-cd2eaf64463c",
+  "skillName": "fjsk-ai-governance-demo-skill",
+  "skillVersion": "0.1.0-demo",
+  "source": "task_system_demo.ai_governance",
+  "taskId": "STORY-003",
+  "taskTitle": "工时报表 - 合同维度导出",
+  "traceDataDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/apps/trace_server/data",
+  "traceDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/trace",
+  "workType": "prd",
+  "workspacePath": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f"
+}

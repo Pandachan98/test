@@ -1,0 +1,58 @@
+{
+  "audit_files": [
+    "trace/conversation-retrospective.md",
+    "trace/conversation-context.md",
+    "trace/conversation-context.json",
+    "trace/final-response.md",
+    "trace/session-summary.json",
+    "trace/input-snapshot-manifest.json",
+    "trace/output-snapshot-manifest.json"
+  ],
+  "capture_mode": "skill_generated_retrospective",
+  "confirmed_facts": [
+    "任务编号为 STORY-003。",
+    "作业编号为 e083f64f-0434-45c8-98f5-cd2eaf64463c。",
+    "Skill 为 fjsk-ai-governance-demo-skill@0.1.0-demo。",
+    "任务空间为 /Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f。",
+    "已扫描 output/ 正式产物 4 个。",
+    "已生成 trace/run_certificate.json。",
+    "已执行 verifier 入库前校验。"
+  ],
+  "confirmed_requirements": [
+    "所有正式业务产物必须写入 output/。",
+    "所有 output/ 下 .md/.json 正式产物必须进入 run_certificate.json。",
+    "会话结束后必须生成复盘报告、上下文交接包和最终交付说明。",
+    "当前保存的是结构化过程审计、会话复盘和上下文交接，不是 Codex 客户端底层完整聊天记录。"
+  ],
+  "conversation_context_available": true,
+  "generated_outputs": [
+    "output/demo_prd.md",
+    "output/skill_audit_report.md",
+    "output/skill_usage_evaluation.json",
+    "output/工时报表-合同维度导出-PRD.md"
+  ],
+  "next_actions": [
+    "下一轮优先阅读 trace/conversation-context.md 接手当前上下文。",
+    "核对 output/ 下正式产物是否符合业务预期。",
+    "入库前只运行 verifier 校验，不在 verify 阶段重新签发凭证。"
+  ],
+  "raw_chat_export_available": false,
+  "retrospective_available": true,
+  "risks": [
+    "待确认：当前缺少真实业务输入材料，业务结论不得当作生产事实。"
+  ],
+  "run_id": "e083f64f-0434-45c8-98f5-cd2eaf64463c",
+  "schema_version": "1.0",
+  "skill": {
+    "name": "fjsk-ai-governance-demo-skill",
+    "version": "0.1.0-demo"
+  },
+  "task_id": "STORY-003",
+  "task_title": "工时报表 - 合同维度导出",
+  "user_intent_summary": "用户要求基于当前任务空间调用 fjsk-ai-governance-demo-skill，为 STORY-003 工时报表 - 合同维度导出 生成正式产物，并形成会话复盘、上下文交接、输入输出快照、作业凭证和入库前校验证据链。",
+  "verification": {
+    "certificate_exists": true,
+    "verifier_passed": true
+  },
+  "workspace_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f"
+}

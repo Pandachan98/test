@@ -1,0 +1,28 @@
+{
+  "base_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-003/任务-STORY-003-工时报表_-_合同维度导出-20260624-103657-e083f64f/output",
+  "created_at": "2026-06-24T02:42:42+00:00",
+  "files": [
+    {
+      "path": "output/demo_prd.md",
+      "sha256": "e35f61a582f0b9729e630abf6ffe64c1cd3a5e066f0a9c2f040e9062f34a9ff6",
+      "size": 1818
+    },
+    {
+      "path": "output/skill_audit_report.md",
+      "sha256": "4b34f5884df6f124b401d457af044932065e9190ca818e2c5c4576f81dfb5d11",
+      "size": 1455
+    },
+    {
+      "path": "output/skill_usage_evaluation.json",
+      "sha256": "ba8ada4e8dbcdb489d71bf3bc1835d8e9773186e6c0199502cec52ae6b6a6f10",
+      "size": 1173
+    },
+    {
+      "path": "output/工时报表-合同维度导出-PRD.md",
+      "sha256": "cfc738b585d66d0383da78d87f114d8f612675867f624bd125818ea8d11a6a4f",
+      "size": 14086
+    }
+  ],
+  "run_id": "e083f64f-0434-45c8-98f5-cd2eaf64463c",
+  "schema_version": "1.0"
+}
