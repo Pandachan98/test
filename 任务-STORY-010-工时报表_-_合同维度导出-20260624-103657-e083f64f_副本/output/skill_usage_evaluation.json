@@ -1,0 +1,34 @@
+{
+  "run_id": "e083f64f-0434-45c8-98f5-cd2eaf64463c",
+  "task_id": "STORY-001",
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo",
+  "synthetic_demo_input": true,
+  "input_materials": [
+    "README.md"
+  ],
+  "user_input_quality": {
+    "goal_clarity_score": 3,
+    "context_completeness_score": 1,
+    "constraint_quality_score": 2,
+    "supplement_response_score": 0
+  },
+  "artifact_quality": {
+    "coverage_score": 4,
+    "structure_score": 4,
+    "actionability_score": 4,
+    "risk_identification_score": 4
+  },
+  "token_productivity": {
+    "input_tokens_estimated": 55,
+    "output_tokens_estimated": 4200,
+    "effective_artifact_units": 4,
+    "quality_score_per_1k_tokens": 0.92,
+    "rework_risk_level": "medium"
+  },
+  "overall": {
+    "usage_proficiency_level": "qualified_with_pending_business_confirmation",
+    "delivery_readiness": "risk",
+    "summary": "Only a task envelope was provided. The generated contract-dimension export plan is suitable for governance-chain validation and business review, but production rules require confirmed field dictionaries, permission matrix, status口径, and export thresholds."
+  }
+}
