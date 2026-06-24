@@ -1,0 +1,32 @@
+{
+  "createdAt": "2026-06-24T01:06:04+00:00",
+  "inputDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/input",
+  "launcherRun": {
+    "extra": {
+      "input_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/input",
+      "launcher_version": "0.1.0",
+      "source": "launcher"
+    },
+    "output_dir": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output",
+    "repo_path": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca",
+    "run_id": "d5ba09ca-533f-439e-8d96-6e5b96a9f57f",
+    "skill_name": "fjsk-ai-governance-demo-skill",
+    "skill_version": "0.1.0-demo",
+    "started_at": "2026-06-24T01:06:04+00:00",
+    "status": "running",
+    "task_id": "STORY-006",
+    "trace_dir": "local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/trace",
+    "work_type": "prd"
+  },
+  "outputDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/output",
+  "runId": "d5ba09ca-533f-439e-8d96-6e5b96a9f57f",
+  "skillName": "fjsk-ai-governance-demo-skill",
+  "skillVersion": "0.1.0-demo",
+  "source": "task_system_demo.ai_governance",
+  "taskId": "STORY-006",
+  "taskTitle": "工作流引擎升级到 v2",
+  "traceDataDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/apps/trace_server/data",
+  "traceDir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca/trace",
+  "workType": "prd",
+  "workspacePath": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260624-090604-d5ba09ca"
+}

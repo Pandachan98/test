@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "run_id": "d5ba09ca-533f-439e-8d96-6e5b96a9f57f",
+  "task_id": "STORY-006",
+  "task_title": "工作流引擎升级到 v2",
+  "work_type": "prd",
+  "skill_name": "fjsk-ai-governance-demo-skill",
+  "skill_version": "0.1.0-demo",
+  "synthetic_demo_input": true,
+  "input_basis": {
+    "input_dir": "input/",
+    "material_files": [
+      "input/README.md",
+      "00-task-fingerprint.json",
+      "01-job-context.md",
+      "02-codex-instruction.md",
+      "03-skill-contract.md"
+    ],
+    "missing_business_materials": [
+      "真实业务需求说明",
+      "现网流程清单",
+      "接口协议",
+      "权限矩阵",
+      "历史缺陷和运营数据"
+    ],
+    "basis_summary": "当前输入仅能确认任务标题、作业目录、Skill 合同和治理要求，无法确认真实业务细节。"
+  },
+  "user_input_quality": {
+    "goal_clarity_score": 3,
+    "context_completeness_score": 1,
+    "constraint_quality_score": 3,
+    "supplement_response_score": 0,
+    "observations": [
+      "用户明确要求输出工作流引擎功能文档。",
+      "任务空间明确了 output/ 与 trace/ 的边界。",
+      "缺少真实业务输入材料，因此功能细节需要标记待确认。"
+    ]
+  },
+  "artifact_quality": {
+    "coverage_score": 4,
+    "structure_score": 4,
+    "actionability_score": 3,
+    "risk_identification_score": 4,
+    "observations": [
+      "功能文档覆盖范围、角色、流程、数据对象、权限、异常、集成和验收标准。",
+      "文档已显式标注输入材料不足和待确认事项。",
+      "在未补充真实业务材料前，不建议直接进入开发定稿。"
+    ]
+  },
+  "token_productivity": {
+    "estimated_input_tokens": 900,
+    "estimated_output_tokens": 6200,
+    "quality_score_per_1k_tokens": 2.11,
+    "evaluation_method": "按输入材料完整度、产物结构覆盖和可执行性进行人工规则化估算。",
+    "limitations": [
+      "未接入真实模型 token 计量。",
+      "未接入生产环境质量评分。",
+      "估算值只用于 Demo 治理链路展示。"
+    ]
+  },
+  "overall": {
+    "usage_proficiency_level": "qualified_for_demo",
+    "delivery_readiness": "review_required",
+    "rework_risk": "medium",
+    "summary": "本次产物满足治理 Demo 的正式输出和审计结构要求，但因为真实业务输入不足，业务内容需后续确认。",
+    "next_actions": [
+      "补充真实业务材料后复核功能范围。",
+      "由产品和研发确认流程状态机、接口、权限、迁移和异常策略。",
+      "签发凭证后运行 verifier，确保产物 hash 与证据链一致。"
+    ]
+  },
+  "output_artifacts": [
+    "output/工作流引擎升级到v2-功能文档.md",
+    "output/skill_audit_report.md",
+    "output/skill_usage_evaluation.json"
+  ]
+}
