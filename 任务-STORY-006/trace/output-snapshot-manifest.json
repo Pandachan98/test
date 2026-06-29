@@ -1,0 +1,23 @@
+{
+  "base_dir": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260629-101800-e0626096/output",
+  "created_at": "2026-06-29T02:23:47+00:00",
+  "files": [
+    {
+      "path": "output/skill_audit_report.md",
+      "sha256": "56dd865b63a8cd8606e5981a5db324d69fb9170380bd1448a825c87edd9166d8",
+      "size": 3630
+    },
+    {
+      "path": "output/skill_usage_evaluation.json",
+      "sha256": "8dafec17b6a799fe8d3e47a5981f962057bbca856aece6cd0ee60d83491924e7",
+      "size": 3246
+    },
+    {
+      "path": "output/工作流引擎升级到v2-说明文档.md",
+      "sha256": "6751070c76fdf076c1beffe3c4504e0e046cc0531bed9c645ce85ea9eb700826",
+      "size": 13216
+    }
+  ],
+  "run_id": "e0626096-adcd-492b-ba9c-87f2ca4d464d",
+  "schema_version": "1.0"
+}

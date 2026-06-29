@@ -1,0 +1,39 @@
+{
+  "artifact_count": 3,
+  "artifacts": [
+    "output/skill_audit_report.md",
+    "output/skill_usage_evaluation.json",
+    "output/工作流引擎升级到v2-说明文档.md"
+  ],
+  "capture_mode": "skill_generated_retrospective",
+  "clean_verification": "pass",
+  "created_at": "2026-06-29T02:23:47+00:00",
+  "evidence_files": [
+    "trace/skill-invocation.json",
+    "trace/conversation-retrospective.md",
+    "trace/conversation-context.md",
+    "trace/conversation-context.json",
+    "trace/final-response.md",
+    "trace/conversation-log.jsonl",
+    "trace/tool-calls.jsonl",
+    "trace/session-summary.json",
+    "trace/input-snapshot-manifest.json",
+    "trace/output-snapshot-manifest.json"
+  ],
+  "negative_results": [
+    {
+      "case": "verifier-report-tampered-business",
+      "errors": [
+        "artifact sha256 mismatch: local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260629-101800-e0626096/output/工作流引擎升级到v2-说明文档.md"
+      ],
+      "exitCode": 1,
+      "passed": true,
+      "target": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260629-101800-e0626096/output/工作流引擎升级到v2-说明文档.md",
+      "targetRelativePath": "output/工作流引擎升级到v2-说明文档.md"
+    }
+  ],
+  "raw_chat_export_available": false,
+  "run_id": "e0626096-adcd-492b-ba9c-87f2ca4d464d",
+  "trace_report": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260629-101800-e0626096/trace/trace-detail-report.md",
+  "workspace": "/Users/starry/Desktop/工作文件/原型制作/智能体平台/fjsk-ai-work-governance/local_workspaces/STORY-006/任务-STORY-006-工作流引擎升级到_v2-20260629-101800-e0626096"
+}

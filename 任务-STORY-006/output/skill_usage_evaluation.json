@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.1.0-demo",
+  "generated_at": "2026-06-29T10:21:03+08:00",
+  "task": {
+    "task_id": "STORY-006",
+    "run_id": "e0626096-adcd-492b-ba9c-87f2ca4d464d",
+    "work_type": "prd",
+    "task_title": "工作流引擎升级到 v2"
+  },
+  "skill": {
+    "name": "fjsk-ai-governance-demo-skill",
+    "version": "0.1.0-demo",
+    "purpose": "验证 AI 作业治理链路中的业务产物、Skill 审计报告、使用质量评估、签发凭证和 verifier 校验。"
+  },
+  "source_materials": {
+    "synthetic_demo_input": true,
+    "input_files_reviewed": [
+      "00-task-fingerprint.json",
+      "01-job-context.md",
+      "02-codex-instruction.md",
+      "03-skill-contract.md",
+      "04-submit-checklist.md",
+      "input/README.md",
+      "trace/run_context.json"
+    ],
+    "missing_business_materials": [
+      "真实业务流程样例",
+      "现有系统页面或操作录屏",
+      "流程节点和角色权限规则",
+      "接口文档或数据字典",
+      "历史流程运行数据",
+      "研发设计约束"
+    ],
+    "input_quality_note": "当前输入仅包含任务封套和 README，未提供真实业务附件，因此所有业务判断均按技术验证样例处理。"
+  },
+  "user_input_quality": {
+    "goal_clarity_score": 3,
+    "context_completeness_score": 1,
+    "constraint_quality_score": 4,
+    "supplement_response_score": 0,
+    "summary": "任务目标清楚，目录边界和治理合同清楚；但业务上下文严重不足，无法确认真实流程规则。"
+  },
+  "artifact_quality": {
+    "coverage_score": 3,
+    "structure_score": 4,
+    "actionability_score": 3,
+    "risk_identification_score": 4,
+    "summary": "产物覆盖工作流 v2 的说明文档、审计报告和评估 JSON，结构可评审；业务细节需补充真实材料后复核。"
+  },
+  "token_productivity": {
+    "estimated_input_tokens": 1400,
+    "estimated_output_tokens": 6200,
+    "reuse_value": "medium",
+    "productivity_level": "moderate",
+    "notes": [
+      "任务封套提供了明确的治理边界，减少了目录和交付格式确认成本。",
+      "真实业务材料缺失导致大量内容必须保留待确认标记，降低了直接研发转化效率。",
+      "当前产物可作为后续补料、评审和治理链路验证的基础。"
+    ]
+  },
+  "overall": {
+    "delivery_readiness": "risk",
+    "requires_business_review": true,
+    "requires_development_review": true,
+    "governance_status_before_signing": "outputs_ready_for_local_certificate",
+    "recommended_next_step": "补充真实业务材料后，由业务、产品、研发复核说明文档，并在修改后重新签发凭证。",
+    "summary": "本次作业已完成 Demo Skill 产物生成，但由于 synthetic_demo_input=true，不建议直接进入生产研发。"
+  },
+  "artifacts": [
+    {
+      "path": "output/工作流引擎升级到v2-说明文档.md",
+      "type": "business_document",
+      "status": "generated"
+    },
+    {
+      "path": "output/skill_audit_report.md",
+      "type": "skill_audit_report",
+      "status": "generated"
+    },
+    {
+      "path": "output/skill_usage_evaluation.json",
+      "type": "skill_usage_evaluation",
+      "status": "generated"
+    }
+  ]
+}
